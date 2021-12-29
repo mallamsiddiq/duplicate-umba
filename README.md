@@ -40,7 +40,7 @@ B.Setting up the app:
 C.TESTING THE APP:
 
 	All end-pionts are as specified in the test document and could be tested as instructed. But for ease of navigation I added few redirecting icon buttons that points to the api’s and also return you back to the home age. 
-	At the /users/ endpoit clicking the profile picture redirects you  to user profile on git. Just to observe culture of design, I created a user profile detail page at the endpoint 'users/details/<int:user_pk>/’  you’ll notice a small profile icon when hover on a specific user clicking on this icon redirect you to the user details.
+	At the /users/ endpoit clicking the profile picture redirects you  to user profile on git. Just to observe culture of design, I created a user profile detail page at the endpoint 'users/details/<int:user_pk>/’  you’ll notice a small oange profile icon when hover on a specific user, clicking on this icon redirect you to the user details i created.
 
 	While the raw json API response is at 'api/users/profiles/' as instructed, I creted a custom api documentaion using swagger doc to easily play around with the API’s and query it how you like. This end point is at 'costum-api/'. and the raw json response is well reported at the instructed end point. 
 
